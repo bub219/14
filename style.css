@@ -1,0 +1,88 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #0f0;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.members {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.member {
+  background-color: #1a1a1a;
+  border-left: 5px solid #0f0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.member h2 {
+  margin: 0;
+  color: #0f0;
+}
+
+.member p {
+  margin: 5px 0 0;
+  color: #ccc;
+}
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.note {
+  background-color: #1c1c1c;
+  border-left: 4px solid #f90;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.note h2 {
+  margin: 0 0 5px;
+  color: #f90;
+}
+
+.note p {
+  margin: 0;
+  color: #ddd;
+}
+.turf {
+  padding: 20px;
+  text-align: center;
+}
+
+.turf-map {
+  max-width: 100%;
+  border: 3px solid #0f0;
+  border-radius: 10px;
+}
